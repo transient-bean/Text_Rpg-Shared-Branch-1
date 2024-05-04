@@ -1,4 +1,6 @@
-﻿public static class CharacterDataDictionary
+﻿using Text_Rpg;
+
+public static class CharacterDataDictionary
 {
     public static readonly IReadOnlyDictionary<string, string[]> Pronouns = new Dictionary<string, string[]>
     {
@@ -12,16 +14,14 @@
         ["Skyborn"] = new Dictionary<string, object>
         {
             ["Description"] = "Skyborn: \nBorn high above the clouds in a floating city, Skyborn are often diplomats, scholars, or traders. They possess a natural affinity for wind magic and a yearning for exploration.",
-            ["Traits"] =  "\n  Dexterity (+1) \n  Intelligence (+1)" ,
-            ["Drawbacks"] =  "\n  Strength (-1)\n  Constitution (-1)" ,
-            ["TotalStatChanges"] = new Dictionary<string, int>
+            ["Traits"] = "\n  Dexterity (+1) \n  Intelligence (+1)",
+            ["Drawbacks"] = "\n  Strength (-1)\n  Constitution (-1)",
+            ["TotalStatChanges"] = new TraitBonus
             {
-                ["Strength"] = -1,
-                ["Dexterity"] = 1,
-                ["Constitution"] = -1,
-                ["Intelligence"] = 1,
-                ["Wisdom"] = 0,
-                ["Charisma"] = 0
+                Dexterity = 1,
+                Intelligence = 1,
+                Strength = -1,
+                Constitution = -1
             }
         },
         ["Wastelander"] = new Dictionary<string, object>
@@ -29,29 +29,25 @@
             ["Description"] = "Wastelander: \nRaised in the harsh realities of the wasteland, Wastelanders are known for their resilience and resourcefulness. They are skilled scavengers and adept at surviving in unforgiving environments.",
             ["Traits"] = "\n  Constitution (+1)\n  Wisdom (+1)",
             ["Drawbacks"] = "\n  Charisma (-1)\n  Dexterity (-1)",
-            ["TotalStatChanges"] = new Dictionary<string, int>
+            ["TotalStatChanges"] = new TraitBonus
             {
-                ["Strength"] = 0,
-                ["Dexterity"] = -1,
-                ["Constitution"] = 1,
-                ["Intelligence"] = 0,
-                ["Wisdom"] = 1,
-                ["Charisma"] = -1
+                Constitution = 1,
+                Wisdom = 1,
+                Charisma = -1,
+                Dexterity = -1
             }
         },
         ["Nomad"] = new Dictionary<string, object>
         {
             ["Description"] = "Nomad: \nBorn into a wandering tribe, Nomads are skilled survivalists and expert trackers. They have a deep connection to the land and possess a wealth of knowledge about the wilderness.",
-            ["Traits"] =  "\n  Wisdom (+1)\n  Dexterity (+1)",
+            ["Traits"] = "\n  Wisdom (+1)\n  Dexterity (+1)",
             ["Drawbacks"] = "\n  Intelligence (-1)\n  Charisma (-1)",
-            ["TotalStatChanges"] = new Dictionary<string, int>
+            ["TotalStatChanges"] = new TraitBonus
             {
-                ["Strength"] = 0,
-                ["Dexterity"] = 1,
-                ["Constitution"] = 0,
-                ["Intelligence"] = -1,
-                ["Wisdom"] = 1,
-                ["Charisma"] = -1
+                Wisdom = 1,
+                Dexterity = 1,
+                Intelligence = -1,
+                Charisma = -1
             }
         },
         ["Tech Savant"] = new Dictionary<string, object>
@@ -59,14 +55,12 @@
             ["Description"] = "Tech Savant: \nRaised in a technologically advanced society, Tech Savants are masters of machinery and innovation. They possess a deep understanding of technology and excel in engineering and problem-solving.",
             ["Traits"] = "\n  Intelligence (+1)\n  Dexterity (+1)",
             ["Drawbacks"] = "\n  Strength (-1)\n  Wisdom (-1)",
-            ["TotalStatChanges"] = new Dictionary<string, int>
+            ["TotalStatChanges"] = new TraitBonus
             {
-                ["Strength"] = -1,
-                ["Dexterity"] = 1,
-                ["Constitution"] = 0,
-                ["Intelligence"] = 1,
-                ["Wisdom"] = -1,
-                ["Charisma"] = 0
+                Intelligence = 1,
+                Dexterity = 1,
+                Strength = -1,
+                Wisdom = -1
             }
         },
         ["Shadowborn"] = new Dictionary<string, object>
@@ -74,17 +68,15 @@
             ["Description"] = "Shadowborn: \nBorn in the shadows, Shadowborn individuals are skilled infiltrators and masters of stealth. They possess an innate ability to manipulate darkness and excel in espionage and subterfuge.",
             ["Traits"] = "\n  Dexterity (+1)\n  Charisma (+2)",
             ["Drawbacks"] = "\n  Strength (-2)\n  Constitution (-1)",
-            ["TotalStatChanges"] = new Dictionary<string, int>
+            ["TotalStatChanges"] = new TraitBonus
             {
-                ["Strength"] = -2,
-                ["Dexterity"] = 1,
-                ["Constitution"] = -1,
-                ["Intelligence"] = 0,
-                ["Wisdom"] = 0,
-                ["Charisma"] = 2
+                Dexterity = 1,
+                Charisma = 2,
+                Strength = -2,
+                Constitution = -1
             }
+            // Add more origins here
         }
-        // Add more origins here
     };
 
     public static readonly IReadOnlyDictionary<string, object> Races = new Dictionary<string, object>
@@ -94,29 +86,19 @@
             ["Description"] = "Human: \nHumans are the most adaptable and versatile race. They possess no inherent racial bonuses but can excel in any role through hard work and determination.",
             ["Traits"] = "\n  None",
             ["Drawbacks"] = "\n  None",
-            ["TotalStatChanges"] = new Dictionary<string, int>
-            {
-                ["Strength"] = 0,
-                ["Dexterity"] = 0,
-                ["Constitution"] = 0,
-                ["Intelligence"] = 0,
-                ["Wisdom"] = 0,
-                ["Charisma"] = 0
-            }
+            ["TotalStatChanges"] = new TraitBonus()
         },
         ["Mutant"] = new Dictionary<string, object>
         {
             ["Description"] = "Mutant: \nMutants are individuals who have been affected by radiation and have developed unique abilities or physical mutations. They possess extraordinary powers but also face social stigma and discrimination.",
             ["Traits"] = "\n  Constitution (+2)\n  Strength (+1)",
             ["Drawbacks"] = "\n  Intelligence (-2)\n  Charisma (-1)",
-            ["TotalStatChanges"] = new Dictionary<string, int>
+            ["TotalStatChanges"] = new TraitBonus
             {
-                ["Strength"] = 1,
-                ["Dexterity"] = 0,
-                ["Constitution"] = 2,
-                ["Intelligence"] = -2,
-                ["Wisdom"] = 0,
-                ["Charisma"] = -1
+                Constitution = 2,
+                Strength = 1,
+                Intelligence = -2,
+                Charisma = -1
             }
         },
         ["Scavenger"] = new Dictionary<string, object>
@@ -124,14 +106,12 @@
             ["Description"] = "Scavenger: \nScavengers are survivors who have learned to thrive in the post-apocalyptic world. They excel at finding valuable resources and have honed their skills in scavenging and survival.",
             ["Traits"] = "\n  Wisdom (+1)\n  Dexterity (+1)",
             ["Drawbacks"] = "\n  Strength (+1)\n  Constitution (-1)",
-            ["TotalStatChanges"] = new Dictionary<string, int>
+            ["TotalStatChanges"] = new TraitBonus
             {
-                ["Strength"] = -1,
-                ["Dexterity"] = 1,
-                ["Constitution"] = -1,
-                ["Intelligence"] = 0,
-                ["Wisdom"] = 1,
-                ["Charisma"] = 0
+                Wisdom = 1,
+                Dexterity = 1,
+                Strength = -1,
+                Constitution = -1
             }
         },
         ["Cybernetic"] = new Dictionary<string, object>
@@ -139,14 +119,12 @@
             ["Description"] = "Cybernetic: \nCybernetics are individuals who have integrated advanced technology into their bodies. They possess enhanced physical abilities and have access to a wide range of technological enhancements.",
             ["Traits"] = "\n  Strength (+2)\n  Intelligence (+1)",
             ["Drawbacks"] = "\n  Dexterity (-2)\n Charisma (-1)",
-            ["TotalStatChanges"] = new Dictionary<string, int>
+            ["TotalStatChanges"] = new TraitBonus
             {
-                ["Strength"] = 2,
-                ["Dexterity"] = -2,
-                ["Constitution"] = 0,
-                ["Intelligence"] = 1,
-                ["Wisdom"] = 0,
-                ["Charisma"] = -1
+                Strength = 2,
+                Intelligence = 1,
+                Dexterity = -2,
+                Charisma = -1
             }
         },
         ["Marauder"] = new Dictionary<string, object>
@@ -154,14 +132,12 @@
             ["Description"] = "Marauder: \nMarauders are ruthless warriors who thrive in the lawless wastelands. They are skilled in combat and excel at raiding and pillaging. Fearless and brutal, they strike fear into the hearts of their enemies.",
             ["Traits"] = "\n  Wisdom (+2)\n  Strength (+1)",
             ["Drawbacks"] = "\n  Charisma (-2)\n  Intelligence (-1)",
-            ["TotalStatChanges"] = new Dictionary<string, int>
+            ["TotalStatChanges"] = new TraitBonus
             {
-                ["Strength"] = 1,
-                ["Dexterity"] = 0,
-                ["Constitution"] = 0,
-                ["Intelligence"] = -1,
-                ["Wisdom"] = 2,
-                ["Charisma"] = -2
+                Wisdom = 2,
+                Strength = 1,
+                Charisma = -2,
+                Intelligence = -1
             }
         }
         // Add more races here
