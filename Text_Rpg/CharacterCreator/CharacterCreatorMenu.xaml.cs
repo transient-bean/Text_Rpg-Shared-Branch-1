@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Text_Rpg.Data;
 
-namespace Text_Rpg
+namespace Text_Rpg.CharacterCreator
 {
     /// <summary>
     /// Interaction logic for CharacterCreatorMenu.xaml
