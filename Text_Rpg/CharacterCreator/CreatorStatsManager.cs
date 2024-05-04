@@ -1,4 +1,6 @@
-﻿namespace Text_Rpg.CharacterCreator
+﻿using Text_Rpg.Data;
+
+namespace Text_Rpg.CharacterCreator
 {
     public class CreatorStatsManager
     {
