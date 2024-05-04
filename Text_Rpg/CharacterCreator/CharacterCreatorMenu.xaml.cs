@@ -12,7 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Text_Rpg.Data;
+using Models.Data;
 using Text_Rpg.UI;
 
 namespace Text_Rpg.CharacterCreator

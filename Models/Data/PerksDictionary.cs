@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Text_Rpg.Data
+﻿namespace Models.Data
 {
-    internal class PerksDictionary
+    public class PerksDictionary
     {
         public static readonly IReadOnlyDictionary<string, object> Perks = new Dictionary<string, object>
         {

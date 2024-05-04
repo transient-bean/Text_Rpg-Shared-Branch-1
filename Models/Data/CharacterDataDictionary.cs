@@ -1,10 +1,13 @@
-﻿namespace Text_Rpg.Data
+﻿namespace Models.Data
 {
+    using Constants;
+    using Localization;
+
     public static class CharacterDataDictionary
     {
         public static readonly IReadOnlyDictionary<string, string[]> Pronouns = new Dictionary<string, string[]>
         {
-            ["He"] = ["he", "him", "his"],
+            [CharacterSheet.He] = [CharacterSheetLocale.He, CharacterSheetLocale.Him, CharacterSheetLocale.His],
             ["She"] = ["she", "her", "hers"],
             ["They"] = ["they", "them", "theirs"]
         };
@@ -13,17 +16,17 @@
         {
             ["Skyborn"] = new Dictionary<string, object>
             {
-                ["Description"] = "Skyborn: \nBorn high above the clouds in a floating city, Skyborn are often diplomats, scholars, or traders. They possess a natural affinity for wind magic and a yearning for exploration.",
-                ["Traits"] = "\n  Dexterity (+1) \n  Intelligence (+1)",
-                ["Drawbacks"] = "\n  Strength (-1)\n  Constitution (-1)",
-                ["TotalStatChanges"] = new Dictionary<string, int>
+                [CharacterSheet.Description] = "Skyborn: \nBorn high above the clouds in a floating city, Skyborn are often diplomats, scholars, or traders. They possess a natural affinity for wind magic and a yearning for exploration.",
+                [CharacterSheet.Traits] = "\n  Dexterity (+1) \n  Intelligence (+1)",
+                [CharacterSheet.Drawbacks] = "\n  Strength (-1)\n  Constitution (-1)",
+                [CharacterSheet.TotalStatChanges] = new Dictionary<string, int>
                 {
-                    ["Strength"] = -1,
-                    ["Dexterity"] = 1,
-                    ["Constitution"] = -1,
-                    ["Intelligence"] = 1,
-                    ["Wisdom"] = 0,
-                    ["Charisma"] = 0
+                    [CharacterSheet.Strength] = -1,
+                    [CharacterSheet.Dexterity] = 1,
+                    [CharacterSheet.Constitution] = -1,
+                    [CharacterSheet.Intelligence] = 1,
+                    [CharacterSheet.Wisdom] = 0,
+                    [CharacterSheet.Charisma] = 0
                 }
             },
             ["Wastelander"] = new Dictionary<string, object>

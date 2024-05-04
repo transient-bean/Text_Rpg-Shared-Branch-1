@@ -1,4 +1,4 @@
-﻿using Text_Rpg.Data;
+﻿using Models.Data;
 
 namespace Text_Rpg.CharacterCreator
 {
