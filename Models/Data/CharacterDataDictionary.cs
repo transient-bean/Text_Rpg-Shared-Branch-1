@@ -16,7 +16,7 @@
         {
             ["Skyborn"] = new Dictionary<string, object>
             {
-                [CharacterSheet.Description] = "Skyborn: \nBorn high above the clouds in a floating city, Skyborn are often diplomats, scholars, or traders. They possess a natural affinity for wind magic and a yearning for exploration.",
+                [CharacterSheet.Description] = CharacterCreatorLocale.SkyBornDescription,
                 [CharacterSheet.Traits] = "\n  Dexterity (+1) \n  Intelligence (+1)",
                 [CharacterSheet.Drawbacks] = "\n  Strength (-1)\n  Constitution (-1)",
                 [CharacterSheet.TotalStatChanges] = new Dictionary<string, int>

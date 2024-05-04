@@ -59,5 +59,14 @@ namespace Models.Localization {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skyborn: \nBorn high above the clouds in a floating city, Skyborn are often diplomats, scholars, or traders. They possess a natural affinity for wind magic and a yearning for exploration..
+        /// </summary>
+        public static string SkyBornDescription {
+            get {
+                return ResourceManager.GetString("SkyBornDescription", resourceCulture);
+            }
+        }
     }
 }

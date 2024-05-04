@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Models.Data;
 using Text_Rpg.UI;
+using Models.Constants
 
 namespace Text_Rpg.CharacterCreator
 {
@@ -144,7 +145,7 @@ namespace Text_Rpg.CharacterCreator
                 var characterData = (Dictionary<string, object>)dataDictionary[selectedItem];
 
                 // Extract the necessary data from the characterData dictionary
-                string description = (string)characterData["Description"];
+                string description = (string)characterData[CharacterSheet.Description];
                 string traits = characterData.ContainsKey("Traits") ? (string)characterData["Traits"] : string.Empty;
                 string drawbacks = characterData.ContainsKey("Drawbacks") ? (string)characterData["Drawbacks"] : string.Empty;
                 string goal = characterData.ContainsKey("Goal") ? (string)characterData["Goal"] : string.Empty;
