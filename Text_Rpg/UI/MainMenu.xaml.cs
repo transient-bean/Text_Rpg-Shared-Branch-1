@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Text_Rpg.Data;
 
-namespace Text_Rpg
+namespace Text_Rpg.UI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

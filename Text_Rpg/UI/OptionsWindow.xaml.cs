@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Text_Rpg
+namespace Text_Rpg.UI
 {
     /// <summary>
     /// Interaction logic for OptionsWindow.xaml
