@@ -117,7 +117,206 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SkyBornDescription" xml:space="preserve">
-    <value>Skyborn: \nBorn high above the clouds in a floating city, Skyborn are often diplomats, scholars, or traders. They possess a natural affinity for wind magic and a yearning for exploration.</value>
+  <data name="CharismaDescription" xml:space="preserve">
+    <value>Charisma: 
+Presence, persuasiveness, and social influence. A high charisma value improves bartering, speech checks, and NPC reactions.</value>
+  </data>
+  <data name="ConstitutionDescription" xml:space="preserve">
+    <value>Constitution: 
+Physical resilience and endurance. A high constitution value increases maximum health and resistance to physical damage.</value>
+  </data>
+  <data name="CyberneticDescription" xml:space="preserve">
+    <value>Cybernetic: 
+Cybernetics are individuals who have integrated advanced technology into their bodies. They possess enhanced physical abilities and have access to a wide range of technological enhancements.</value>
+  </data>
+  <data name="CyberneticDrawbacks" xml:space="preserve">
+    <value>
+  Dexterity (-2)
+  Charisma (-1)</value>
+  </data>
+  <data name="CyberneticTraits" xml:space="preserve">
+    <value>
+  Strength (+2)
+  Intelligence (+1)</value>
+  </data>
+  <data name="DexterityDescription" xml:space="preserve">
+    <value>Dexterity: 
+Agility, reflexes, and nimbleness. A high dexterity value improves ranged combat accuracy, evasion, and lockpicking.</value>
+  </data>
+  <data name="HumanDescription" xml:space="preserve">
+    <value>Human: 
+Humans are the most adaptable and versatile race. They possess no inherent racial bonuses but can excel in any role through hard work and determination.</value>
+  </data>
+  <data name="HumanDrawbacks" xml:space="preserve">
+    <value>
+  None</value>
+  </data>
+  <data name="HumanTraits" xml:space="preserve">
+    <value>
+  None</value>
+  </data>
+  <data name="IntelligenceDescription" xml:space="preserve">
+    <value>Intelligence: 
+Mental capacity for learning, reasoning, and problem-solving. A high intelligence value improves skill points gained per level and increases effectiveness of technical skills.</value>
+  </data>
+  <data name="MarauderDescription" xml:space="preserve">
+    <value>Marauder: 
+Marauders are ruthless warriors who thrive in the lawless wastelands. They are skilled in combat and excel at raiding and pillaging. Fearless and brutal, they strike fear into the hearts of their enemies.</value>
+  </data>
+  <data name="MarauderDrawbacks" xml:space="preserve">
+    <value>
+  Charisma (-2)
+  Intelligence (-1)</value>
+  </data>
+  <data name="MarauderTraits" xml:space="preserve">
+    <value>
+  Wisdom (+2)
+  Strength (+1)</value>
+  </data>
+  <data name="MutantDescription" xml:space="preserve">
+    <value>Mutant: 
+Mutants are individuals who have been affected by radiation and have developed unique abilities or physical mutations. They possess extraordinary powers but also face social stigma and discrimination.</value>
+  </data>
+  <data name="MutantDrawbacks" xml:space="preserve">
+    <value>
+  Intelligence (-2)
+  Charisma (-1)</value>
+  </data>
+  <data name="MutantTraits" xml:space="preserve">
+    <value>
+  Constitution (+2)
+  Strength (+1)</value>
+  </data>
+  <data name="NomadDescription" xml:space="preserve">
+    <value>Nomad: 
+Born into a wandering tribe, Nomads are skilled survivalists and expert trackers. They have a deep connection to the land and possess a wealth of knowledge about the wilderness.</value>
+  </data>
+  <data name="NomadDrawbacks" xml:space="preserve">
+    <value>
+  Intelligence (-1)
+  Charisma (-1)</value>
+  </data>
+  <data name="NomadTraits" xml:space="preserve">
+    <value>
+  Wisdom (+1)
+  Dexterity (+1)</value>
+  </data>
+  <data name="OpportunistDescription" xml:space="preserve">
+    <value>The Opportunist: 
+Always on the lookout for the next big opportunity, the Opportunist is driven by ambition and a desire for wealth and power. They are willing to do whatever it takes to get ahead in the wasteland.</value>
+  </data>
+  <data name="OpportunistGoal" xml:space="preserve">
+    <value>
+Amass wealth and influence, become a prominent figure in the wasteland.</value>
+  </data>
+  <data name="PathfinderDescription" xml:space="preserve">
+    <value>The Pathfinder: 
+Driven by an insatiable curiosity and a thirst for knowledge, the Pathfinder seeks to uncover the lost secrets of the wasteland. Ancient ruins, forgotten lore, and hidden wonders fuel their relentless exploration.</value>
+  </data>
+  <data name="PathfinderGoal" xml:space="preserve">
+    <value>
+Become a renowned explorer, unearth the mysteries of world.</value>
+  </data>
+  <data name="RedeemerDescription" xml:space="preserve">
+    <value>The Redeemer: 
+Motivated by a strong sense of justice and a desire to help others, the Redeemer strives to make the wasteland a better place. They fight for the downtrodden and protect the innocent from harm.</value>
+  </data>
+  <data name="RedeemerGoal" xml:space="preserve">
+    <value>
+Become a beacon of hope, bring order and justice to the wasteland.</value>
+  </data>
+  <data name="ScavengerDescription" xml:space="preserve">
+    <value>Scavenger:
+Scavengers are survivors who have learned to thrive in the post-apocalyptic world. They excel at finding valuable resources and have honed their skills in scavenging and survival.</value>
+  </data>
+  <data name="ScavengerDrawbacks" xml:space="preserve">
+    <value>
+  Strength (+1)
+  Constitution (-1)</value>
+  </data>
+  <data name="ScavengerTraits" xml:space="preserve">
+    <value>
+  Wisdom (+1)
+  Dexterity (+1)</value>
+  </data>
+  <data name="ShadowbornDescription" xml:space="preserve">
+    <value>Shadowborn: 
+Born in the shadows, Shadowborn individuals are skilled infiltrators and masters of stealth. They possess an innate ability to manipulate darkness and excel in espionage and subterfuge.</value>
+  </data>
+  <data name="ShadowbornDrawbacks" xml:space="preserve">
+    <value>
+  Strength (-2)
+  Constitution (-1)</value>
+  </data>
+  <data name="ShadowbornTraits" xml:space="preserve">
+    <value>
+  Dexterity (+1)
+  Charisma (+2)</value>
+  </data>
+  <data name="SkybornDescription" xml:space="preserve">
+    <value>Skyborn:
+Born high above the clouds in a floating city, Skyborn are often diplomats, scholars, or traders. They possess a natural affinity for wind magic and a yearning for exploration.</value>
+  </data>
+  <data name="SkybornDrawbacks" xml:space="preserve">
+    <value>
+  Strength (-1)
+  Constitution (-1)</value>
+  </data>
+  <data name="SkybornTraits" xml:space="preserve">
+    <value>
+  Dexterity (+1) 
+  Intelligence (+1)</value>
+  </data>
+  <data name="StrengthDescription" xml:space="preserve">
+    <value>Strength: 
+Physical power and prowess in close combat. A high strength value increases melee damage and carrying capacity.</value>
+  </data>
+  <data name="SurvivorDescription" xml:space="preserve">
+    <value>The Survivor: 
+Having endured unimaginable hardships, the Survivor is driven by the will to live and overcome. They have witnessed the worst of the wasteland and are determined to persevere against all odds.</value>
+  </data>
+  <data name="SurvivorGoal" xml:space="preserve">
+    <value>
+Survive against the harsh conditions of the wasteland, find a place to call home.</value>
+  </data>
+  <data name="TechSavantDescription" xml:space="preserve">
+    <value>Tech Savant: 
+Raised in a technologically advanced society, Tech Savants are masters of machinery and innovation. They possess a deep understanding of technology and excel in engineering and problem-solving.</value>
+  </data>
+  <data name="TechSavantDrawbacks" xml:space="preserve">
+    <value>
+  Strength (-1)
+  Wisdom (-1)</value>
+  </data>
+  <data name="TechSavantTraits" xml:space="preserve">
+    <value>
+  Intelligence (+1)
+   Dexterity (+1)</value>
+  </data>
+  <data name="VengefulDescription" xml:space="preserve">
+    <value>The Vengeful: 
+Consumed by a burning desire for revenge, the Vengeful seeks to punish those who wronged them. Their past haunts them, fueling their determination to make their enemies pay.</value>
+  </data>
+  <data name="VengefulGoal" xml:space="preserve">
+    <value>
+Track down and exact revenge on their enemies.</value>
+  </data>
+  <data name="WastelanderDescription" xml:space="preserve">
+    <value>Wastelander: 
+Raised in the harsh realities of the wasteland, Wastelanders are known for their resilience and resourcefulness. They are skilled scavengers and adept at surviving in unforgiving environments.</value>
+  </data>
+  <data name="WastelanderDrawbacks" xml:space="preserve">
+    <value> 
+ Charisma (-1)
+  Dexterity (-1)</value>
+  </data>
+  <data name="WastelanderTraits" xml:space="preserve">
+    <value>
+ Constitution (+1)
+  Wisdom (+1)</value>
+  </data>
+  <data name="WisdomDescription" xml:space="preserve">
+    <value>Wisdom: 
+Insight, perception, and experience. A high wisdom value improves perception, increases effectiveness of magical skills, and enhances resistance to magical effects.</value>
   </data>
 </root>

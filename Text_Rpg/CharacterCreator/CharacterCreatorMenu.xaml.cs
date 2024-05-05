@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Models.Data;
 using Text_Rpg.UI;
-using Models.Constants
+using Models.Constants;
 
 namespace Text_Rpg.CharacterCreator
 {

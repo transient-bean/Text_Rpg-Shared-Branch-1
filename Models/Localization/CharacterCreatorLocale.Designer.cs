@@ -61,11 +61,489 @@ namespace Models.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Skyborn: \nBorn high above the clouds in a floating city, Skyborn are often diplomats, scholars, or traders. They possess a natural affinity for wind magic and a yearning for exploration..
+        ///   Looks up a localized string similar to Charisma: 
+        ///Presence, persuasiveness, and social influence. A high charisma value improves bartering, speech checks, and NPC reactions..
         /// </summary>
-        public static string SkyBornDescription {
+        public static string CharismaDescription {
             get {
-                return ResourceManager.GetString("SkyBornDescription", resourceCulture);
+                return ResourceManager.GetString("CharismaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Constitution: 
+        ///Physical resilience and endurance. A high constitution value increases maximum health and resistance to physical damage..
+        /// </summary>
+        public static string ConstitutionDescription {
+            get {
+                return ResourceManager.GetString("ConstitutionDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cybernetic: 
+        ///Cybernetics are individuals who have integrated advanced technology into their bodies. They possess enhanced physical abilities and have access to a wide range of technological enhancements..
+        /// </summary>
+        public static string CyberneticDescription {
+            get {
+                return ResourceManager.GetString("CyberneticDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Dexterity (-2)
+        ///  Charisma (-1).
+        /// </summary>
+        public static string CyberneticDrawbacks {
+            get {
+                return ResourceManager.GetString("CyberneticDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Strength (+2)
+        ///  Intelligence (+1).
+        /// </summary>
+        public static string CyberneticTraits {
+            get {
+                return ResourceManager.GetString("CyberneticTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dexterity: 
+        ///Agility, reflexes, and nimbleness. A high dexterity value improves ranged combat accuracy, evasion, and lockpicking..
+        /// </summary>
+        public static string DexterityDescription {
+            get {
+                return ResourceManager.GetString("DexterityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Human: 
+        ///Humans are the most adaptable and versatile race. They possess no inherent racial bonuses but can excel in any role through hard work and determination..
+        /// </summary>
+        public static string HumanDescription {
+            get {
+                return ResourceManager.GetString("HumanDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  None.
+        /// </summary>
+        public static string HumanDrawbacks {
+            get {
+                return ResourceManager.GetString("HumanDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  None.
+        /// </summary>
+        public static string HumanTraits {
+            get {
+                return ResourceManager.GetString("HumanTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Intelligence: 
+        ///Mental capacity for learning, reasoning, and problem-solving. A high intelligence value improves skill points gained per level and increases effectiveness of technical skills..
+        /// </summary>
+        public static string IntelligenceDescription {
+            get {
+                return ResourceManager.GetString("IntelligenceDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Marauder: 
+        ///Marauders are ruthless warriors who thrive in the lawless wastelands. They are skilled in combat and excel at raiding and pillaging. Fearless and brutal, they strike fear into the hearts of their enemies..
+        /// </summary>
+        public static string MarauderDescription {
+            get {
+                return ResourceManager.GetString("MarauderDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Charisma (-2)
+        ///  Intelligence (-1).
+        /// </summary>
+        public static string MarauderDrawbacks {
+            get {
+                return ResourceManager.GetString("MarauderDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Wisdom (+2)
+        ///  Strength (+1).
+        /// </summary>
+        public static string MarauderTraits {
+            get {
+                return ResourceManager.GetString("MarauderTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mutant: 
+        ///Mutants are individuals who have been affected by radiation and have developed unique abilities or physical mutations. They possess extraordinary powers but also face social stigma and discrimination..
+        /// </summary>
+        public static string MutantDescription {
+            get {
+                return ResourceManager.GetString("MutantDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Intelligence (-2)
+        ///  Charisma (-1).
+        /// </summary>
+        public static string MutantDrawbacks {
+            get {
+                return ResourceManager.GetString("MutantDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Constitution (+2)
+        ///  Strength (+1).
+        /// </summary>
+        public static string MutantTraits {
+            get {
+                return ResourceManager.GetString("MutantTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nomad: 
+        ///Born into a wandering tribe, Nomads are skilled survivalists and expert trackers. They have a deep connection to the land and possess a wealth of knowledge about the wilderness..
+        /// </summary>
+        public static string NomadDescription {
+            get {
+                return ResourceManager.GetString("NomadDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Intelligence (-1)
+        ///  Charisma (-1).
+        /// </summary>
+        public static string NomadDrawbacks {
+            get {
+                return ResourceManager.GetString("NomadDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Wisdom (+1)
+        ///  Dexterity (+1).
+        /// </summary>
+        public static string NomadTraits {
+            get {
+                return ResourceManager.GetString("NomadTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Opportunist: 
+        ///Always on the lookout for the next big opportunity, the Opportunist is driven by ambition and a desire for wealth and power. They are willing to do whatever it takes to get ahead in the wasteland..
+        /// </summary>
+        public static string OpportunistDescription {
+            get {
+                return ResourceManager.GetString("OpportunistDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///Amass wealth and influence, become a prominent figure in the wasteland..
+        /// </summary>
+        public static string OpportunistGoal {
+            get {
+                return ResourceManager.GetString("OpportunistGoal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Pathfinder: 
+        ///Driven by an insatiable curiosity and a thirst for knowledge, the Pathfinder seeks to uncover the lost secrets of the wasteland. Ancient ruins, forgotten lore, and hidden wonders fuel their relentless exploration..
+        /// </summary>
+        public static string PathfinderDescription {
+            get {
+                return ResourceManager.GetString("PathfinderDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///Become a renowned explorer, unearth the mysteries of world..
+        /// </summary>
+        public static string PathfinderGoal {
+            get {
+                return ResourceManager.GetString("PathfinderGoal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Redeemer: 
+        ///Motivated by a strong sense of justice and a desire to help others, the Redeemer strives to make the wasteland a better place. They fight for the downtrodden and protect the innocent from harm..
+        /// </summary>
+        public static string RedeemerDescription {
+            get {
+                return ResourceManager.GetString("RedeemerDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///Become a beacon of hope, bring order and justice to the wasteland..
+        /// </summary>
+        public static string RedeemerGoal {
+            get {
+                return ResourceManager.GetString("RedeemerGoal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scavenger:
+        ///Scavengers are survivors who have learned to thrive in the post-apocalyptic world. They excel at finding valuable resources and have honed their skills in scavenging and survival..
+        /// </summary>
+        public static string ScavengerDescription {
+            get {
+                return ResourceManager.GetString("ScavengerDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Strength (+1)
+        ///  Constitution (-1).
+        /// </summary>
+        public static string ScavengerDrawbacks {
+            get {
+                return ResourceManager.GetString("ScavengerDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Wisdom (+1)
+        ///  Dexterity (+1).
+        /// </summary>
+        public static string ScavengerTraits {
+            get {
+                return ResourceManager.GetString("ScavengerTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shadowborn: 
+        ///Born in the shadows, Shadowborn individuals are skilled infiltrators and masters of stealth. They possess an innate ability to manipulate darkness and excel in espionage and subterfuge..
+        /// </summary>
+        public static string ShadowbornDescription {
+            get {
+                return ResourceManager.GetString("ShadowbornDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Strength (-2)
+        ///  Constitution (-1).
+        /// </summary>
+        public static string ShadowbornDrawbacks {
+            get {
+                return ResourceManager.GetString("ShadowbornDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Dexterity (+1)
+        ///  Charisma (+2).
+        /// </summary>
+        public static string ShadowbornTraits {
+            get {
+                return ResourceManager.GetString("ShadowbornTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skyborn:
+        ///Born high above the clouds in a floating city, Skyborn are often diplomats, scholars, or traders. They possess a natural affinity for wind magic and a yearning for exploration..
+        /// </summary>
+        public static string SkybornDescription {
+            get {
+                return ResourceManager.GetString("SkybornDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Strength (-1)
+        ///  Constitution (-1).
+        /// </summary>
+        public static string SkybornDrawbacks {
+            get {
+                return ResourceManager.GetString("SkybornDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skyborn.
+        /// </summary>
+        public static string SkybornName {
+            get {
+                return ResourceManager.GetString("SkybornName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Dexterity (+1) 
+        ///  Intelligence (+1).
+        /// </summary>
+        public static string SkybornTraits {
+            get {
+                return ResourceManager.GetString("SkybornTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strength: 
+        ///Physical power and prowess in close combat. A high strength value increases melee damage and carrying capacity..
+        /// </summary>
+        public static string StrengthDescription {
+            get {
+                return ResourceManager.GetString("StrengthDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Survivor: 
+        ///Having endured unimaginable hardships, the Survivor is driven by the will to live and overcome. They have witnessed the worst of the wasteland and are determined to persevere against all odds..
+        /// </summary>
+        public static string SurvivorDescription {
+            get {
+                return ResourceManager.GetString("SurvivorDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///Survive against the harsh conditions of the wasteland, find a place to call home..
+        /// </summary>
+        public static string SurvivorGoal {
+            get {
+                return ResourceManager.GetString("SurvivorGoal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tech Savant: 
+        ///Raised in a technologically advanced society, Tech Savants are masters of machinery and innovation. They possess a deep understanding of technology and excel in engineering and problem-solving..
+        /// </summary>
+        public static string TechSavantDescription {
+            get {
+                return ResourceManager.GetString("TechSavantDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Strength (-1)
+        ///  Wisdom (-1).
+        /// </summary>
+        public static string TechSavantDrawbacks {
+            get {
+                return ResourceManager.GetString("TechSavantDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///  Intelligence (+1)
+        ///   Dexterity (+1).
+        /// </summary>
+        public static string TechSavantTraits {
+            get {
+                return ResourceManager.GetString("TechSavantTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Vengeful: 
+        ///Consumed by a burning desire for revenge, the Vengeful seeks to punish those who wronged them. Their past haunts them, fueling their determination to make their enemies pay..
+        /// </summary>
+        public static string VengefulDescription {
+            get {
+                return ResourceManager.GetString("VengefulDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///Track down and exact revenge on their enemies..
+        /// </summary>
+        public static string VengefulGoal {
+            get {
+                return ResourceManager.GetString("VengefulGoal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wastelander: 
+        ///Raised in the harsh realities of the wasteland, Wastelanders are known for their resilience and resourcefulness. They are skilled scavengers and adept at surviving in unforgiving environments..
+        /// </summary>
+        public static string WastelanderDescription {
+            get {
+                return ResourceManager.GetString("WastelanderDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to  
+        /// Charisma (-1)
+        ///  Dexterity (-1).
+        /// </summary>
+        public static string WastelanderDrawbacks {
+            get {
+                return ResourceManager.GetString("WastelanderDrawbacks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        /// Constitution (+1)
+        ///  Wisdom (+1).
+        /// </summary>
+        public static string WastelanderTraits {
+            get {
+                return ResourceManager.GetString("WastelanderTraits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wisdom: 
+        ///Insight, perception, and experience. A high wisdom value improves perception, increases effectiveness of magical skills, and enhances resistance to magical effects..
+        /// </summary>
+        public static string WisdomDescription {
+            get {
+                return ResourceManager.GetString("WisdomDescription", resourceCulture);
             }
         }
     }
