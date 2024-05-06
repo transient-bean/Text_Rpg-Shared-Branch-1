@@ -2,6 +2,8 @@
 using System.Data;
 using System.Windows;
 
+using Models.Localization;
+
 namespace Text_Rpg
 {
     /// <summary>

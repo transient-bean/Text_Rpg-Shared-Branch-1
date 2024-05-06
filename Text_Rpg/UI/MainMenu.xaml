@@ -3,11 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:resx="clr-namespace:Models.Localization;assembly=Models"
         mc:Ignorable="d"
-        Title="Main Menu" FontSize="10">
+        Title="{x:Static resx:MainMenuLocale.MainMenu}" FontSize="10">
     <Viewbox Stretch="Uniform">
         <Grid Height="364" Width="682">
-            <Button Content="Start Game" HorizontalAlignment="Center" VerticalAlignment="Top" Height="76" Width="212" FontSize="36" Margin="0,19,0,0" />
+            <Button Content="{x:Static resx:MainMenuLocale.StartGame}" HorizontalAlignment="Center" VerticalAlignment="Top" Height="76" Width="212" FontSize="36" Margin="0,19,0,0" />
             <Button Content="Character Creator" HorizontalAlignment="Center" Margin="-350,33,0,0" VerticalAlignment="Top" Height="48" Width="112" Click="Button_Click" FontSize="20" />
             <Button x:Name="OptionsButton" Content="Options" HorizontalAlignment="Left" Margin="578,19,0,0" VerticalAlignment="Top" Height="76" Width="82" Click="OptionsButton_Click"/>
         </Grid>

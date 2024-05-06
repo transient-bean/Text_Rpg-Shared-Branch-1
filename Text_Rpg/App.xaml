@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:Text_Rpg"
              StartupUri="UI\MainMenu.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>
